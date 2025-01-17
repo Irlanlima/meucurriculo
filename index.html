@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio de Jose Irlan de Lima Cavalcante</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Fundo com números binários caindo -->
+    <div id="matrix"></div>
+
+    <!-- Cabeçalho com o nome -->
+    <header>
+        <h1 id="name">Jose Irlan de Lima Cavalcante</h1>
+        <p><strong>Cientista da Computação</strong></p>
+        <p>Especialista em Banco de Dados | Especialista em Business Intelligence (BI)</p>
+    </header>
+
+    <!-- Aviso interativo -->
+    <div id="interactive-warning">
+        
+        <p>Para visualizar as informações, clique nos botões abaixo!</p>
+    </div>
+
+    <!-- Barra de Menu abaixo do nome -->
+    <div id="top-menu">
+        <button onclick="scrollToSection('objective')">Objetivo Profissional</button>
+        <button onclick="scrollToSection('experience')">Experiência Profissional</button>
+        <button onclick="scrollToSection('education')">Formação Acadêmica</button>
+        <button onclick="scrollToSection('certifications')">Certificações</button>
+        <button onclick="scrollToSection('contact')">Contato</button>
+    </div>
+
+    <!-- Seções do portfólio -->
+    <section id="objective" class="hidden">
+        <h2>Objetivo Profissional</h2>
+        <p>Estou em busca de oportunidades na área da computação, como Analista de Sistemas Jr, Desenvolvedor Front-End Jr ou Cientista de Dados Jr, aplicando minhas habilidades em organização, administração e comunicação para contribuir de forma eficaz para o sucesso da empresa.</p>
+    </section>
+
+    <section id="experience" class="hidden">
+        <h2>Experiência Profissional</h2>
+        <ul>
+            <li><strong>Secretário Municipal da Juventude, Esporte e Lazer (SEMJEL)</strong> - Abril 2024 a Outubro 2024 (7 meses), Barcelos-AM</li>
+            <li><strong>Instrutor/Professor de TI</strong> pela empresa FETAC e CETAM, 2018 - Atual, Barcelos, Santa Isabel e São Gabriel da Cachoeira</li>
+            <li><strong>Voluntário Analista de Requisitos</strong> no projeto Faculdade na Comunidade - Travessia Sustentável, 2020</li>
+            <li><strong>Voluntário Analista de TI</strong> no Instituto Transformando Vida (ITV) com parceria da Uninorte, 2019</li>
+            <li><strong>Instrutor/Professor de Informática Básica e Avançada</strong> na empresa CETAM e InforBrasão, 2017</li>
+        </ul>
+    </section>
+
+    <section id="education" class="hidden">
+        <h2>Formação Acadêmica</h2>
+        <ul>
+            <li><strong>Especialização em Business Intelligence (BI)</strong> - Grupo Prominas, Concluído em 2024</li>
+            <li><strong>Especialização em Big Data e Ciência de Dados</strong> - Grupo Prominas, Concluído em 2023</li>
+            <li><strong>Bacharel em Ciência da Computação</strong> - Centro Universitário do Norte (UNINORTE), Concluído em 2021</li>
+            <li><strong>Técnico em Manutenção e Suporte em Informática</strong> - CETAM, Concluído em 2017</li>
+        </ul>
+    </section>
+
+    <section id="certifications" class="hidden">
+        <h2>Certificações</h2>
+        <ul>
+            <li><strong>Gerenciamento de Software</strong> - Grupo Prominas, 2022</li>
+            <li><strong>Power BI do Básico ao Avançado</strong> - Udemy, 2022</li>
+            <li><strong>Noções de Segurança da Web</strong> - CETAM, 2021</li>
+            <li><strong>Integração com Rede Nacional de Dados em Saúde</strong> - UNA-SUS-UFG, 2021</li>
+            <li><strong>Segurança e Ética no Compartilhamento de Dados Pessoais de Saúde</strong> - UNA-SUS-UFG, 2021</li>
+            <li><strong>Introdução ao Desenvolvimento de App Android</strong> - IPED, 2021</li>
+            <li><strong>Introdução ao Python</strong> - IPED, 2021</li>
+            <li><strong>Introdução em Ciência de Dados</strong> - IPED, 2019</li>
+        </ul>
+    </section>
+
+    <section id="contact" class="hidden">
+        <h2>Contato</h2>
+        <p><strong>Telefone:</strong> <a href="https://wa.me/5597984098445" target="_blank">(97) 98409-8445</a></p>
+        <p><strong>Email:</strong> <a href="mailto:irlancavalcante19@gmail.com">irlancavalcante19@gmail.com</a></p>
+        <p><strong>Cidade:</strong> Manaus</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Jose Irlan de Lima Cavalcante. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
